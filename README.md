@@ -1,2 +1,1 @@
-# code-challenges
-From the Discord channel
+# How To Code Well Monthly Coding Challenges
