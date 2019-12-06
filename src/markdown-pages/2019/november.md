@@ -2,7 +2,7 @@
 path: "/2019/november"
 date: "2019-05-04"
 title: "November 2019 Code Challenges"
-youtube_id: ""
+youtube_id: "oRKv1qWFpMQ"
 technologies: ['js','css','html']
 ---
 ## Level 1 - Christmas Web Page
@@ -25,6 +25,3 @@ technologies: ['js','css','html']
 
 - Change the colour of the timer to a random colour every minute
 - Bonus points if you also display a random emoji per hour (Christmas themed)
-
-# Live Twitch Review
-This code review was done on *place_date_here* on [Twitch](https://twitch.tv/howtocodewell)
