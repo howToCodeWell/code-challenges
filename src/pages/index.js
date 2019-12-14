@@ -15,16 +15,15 @@ const IndexPage = ({
   return (
     <Layout>
       <div class="flex-non sm:flex ">
-        <div class="flex-none sm:flex-1 md:flex-auto  m-2">
-          <h1>Current challenge</h1>
+        <div class="flex-none sm:flex-1 md:flex-auto m-2 mr-5">
           <CurrentChallenge/>
           <div class="text-center md:text-left m-1 pt-5 pb-5" >
           <a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 no-underline" href={"https://howtocodewell.net/discord"} >Submit your challenge</a>
               </div>
             </div>
-        <div class="flex-none sm:flex-1 md:flex-auto  m-2">
+        <div class="flex-none sm:flex-1 md:flex-auto mt-2 mb-2">
           <h1>Previous challenges</h1>
-          <div>{Posts}</div>
+          <nav>{Posts}</nav>
         </div>
       </div>
     </Layout>
@@ -43,7 +42,7 @@ export const pageQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "DD/MM/YYYY")
+            date(formatString: "MMMM YYYY")
             path
             title
           }

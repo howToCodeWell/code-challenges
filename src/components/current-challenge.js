@@ -5,7 +5,7 @@ export default () => (
     query={graphql`
   query {
     allMarkdownRemark(
-        sort: { order: ASC, fields: [frontmatter___date] }
+        sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1
     ) {
       edges {
@@ -27,7 +27,11 @@ export default () => (
     render={data => (
       <header>
         <h1>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</h1>
-          <p>{data.allMarkdownRemark.edges[0].node.frontmatter.technologies.join(', ')}</p>
+          <div className="flex devicons mb-4">
+              <i className="devicon-javascript-plain colored"></i>
+              <i className="devicon-css3-plain-wordmark colored"></i>
+              <i className="devicon-html5-plain-wordmark colored"></i>
+          </div>
           <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }}

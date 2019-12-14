@@ -1,9 +1,10 @@
 ---
 path: "/2019/december"
-date: "2019-05-04"
+date: "2019-12-01"
 title: "December 2019 Code Challenges"
 youtube_id: ""
 technologies: ['js','css','html']
+challengers: []
 ---
 ## Level 1 - Happy New Year Card
 

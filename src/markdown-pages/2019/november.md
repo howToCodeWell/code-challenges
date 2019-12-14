@@ -1,9 +1,10 @@
 ---
 path: "/2019/november"
-date: "2019-05-04"
+date: "2019-11-01"
 title: "November 2019 Code Challenges"
 youtube_id: "oRKv1qWFpMQ"
 technologies: ['js','css','html']
+challengers: ['https://github.com/rilex037/xmas-countdown', 'https://github.com/mwayne16/Christmas-Countdown', 'https://github.com/Tyrianad/NovemberChallenge2019']
 ---
 ## Level 1 - Christmas Web Page
 - Create a HTML page that says *Christmas Countdown*
