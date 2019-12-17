@@ -18,7 +18,7 @@
     "gatsby-source-filesystem": "^2.1.42",
     "gatsby-transformer-remark": "^2.6.43",
     "gatsby-transformer-sharp": "^2.3.9",
-    "howtocodewell-header-menu": "^1.0.10",
+    "howtocodewell-header-menu": "^1.0.11",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-devicon": "^0.1.9",
