@@ -11,7 +11,7 @@ export default function Template({
   return (
       <Layout>
       <div class="flex-non sm:flex ">
-        <div class="flex-none sm:flex-1 md:flex-auto m-2 mr-5">
+        <div className="flex-none sm:flex-1 md:flex-auto mr-5">
           <h1>{frontmatter.title}</h1>
           <div className="flex devicons mb-4">
               <i className="devicon-javascript-plain colored"></i>
