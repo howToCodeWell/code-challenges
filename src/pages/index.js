@@ -15,7 +15,7 @@ const IndexPage = ({
   return (
     <Layout>
       <div className="flex-non sm:flex ">
-        <div className="flex-none sm:flex-1 md:flex-auto m-2 mr-5">
+        <div className="flex-none sm:flex-1 md:flex-auto mr-5">
           <CurrentChallenge/>
           <div className="text-center md:text-left m-1 pt-5 pb-5" >
           <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 no-underline" href={"https://howtocodewell.net/discord"} >Submit your challenge</a>

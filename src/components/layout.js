@@ -7,13 +7,13 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import {useStaticQuery, graphql} from "gatsby"
 import HeaderMenu from "howtocodewell-header-menu";
 
 import "./layout.css"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+const Layout = ({children}) => {
+    const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
@@ -21,26 +21,29 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
-  return (
-    <>
-    <HeaderMenu/>
-      <div className={'mr-auto ml-auto w-1/2 sm:w-auto md:w-full lg:w-32 xl:w-3/4 '}>
-        <main>{children}</main>
-        <footer className="text-right">
-
-          <a href="https://howtocodewell.net">How To Code Well</a>
-          {` `}
-          {new Date().getFullYear()}
-        </footer>
-      </div>
-    </>
-  )
-}
+    return (
+        <>
+            <HeaderMenu/>
+            <div className="container mx-auto px-4">
+                <main>{children}</main>
+                <footer className="flex justify-between border-solid border-t-2 mt-8 pt-4 border-gray-400">
+                    <div className="mr-2">
+                        <a href="https://github.com/howToCodeWell/code-challenges" target={'_blank'}
+                           rel="noopener noreferrer">Edit</a>
+                    </div>
+                    <div className="m2">
+                        <a href="https://howtocodewell.net">How To Code Well</a>
+                    </div>
+                </footer>
+            </div>
+        </>
+    )
+};
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+    children: PropTypes.node.isRequired,
+};
 
 export default Layout
