@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import {useStaticQuery, graphql} from "gatsby"
-import HeaderMenu from "howtocodewell-header-menu";
+import HeaderMenu from "@howtocodewell/header-menu";
 
 import "./layout.css"
 
