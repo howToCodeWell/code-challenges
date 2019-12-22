@@ -5,8 +5,9 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@howtocodewell/footer-menu": "^1.0.0",
+    "@howtocodewell/footer-menu": "^1.0.3",
     "@howtocodewell/header-menu": "^1.0.18",
+    "@howtocodewell/ui-library": "^1.0.9",
     "@svgr/webpack": "^4.3.3",
     "devicon": "^2.2.0",
     "gatsby": "^2.18.16",
