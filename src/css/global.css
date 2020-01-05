@@ -4,12 +4,3 @@
 ul{
     padding-left:0.5em;
 }
-ul li:before{
-    height:10px;
-    width:10px;
-    padding-right:10px;
-    content: ' </>';
-    font-weight: 900;
-    color:red;
-
-}
