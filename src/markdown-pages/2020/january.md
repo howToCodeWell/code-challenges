@@ -11,9 +11,9 @@ challengers: ['']
 - Create a JSON file that represent a form and it's fields
 - The form must include
   - First name *textbox*
-    - Must be required
+      - Must be required
   - Last name *textbox*
-    - Must be optional
+      - Must be optional
   - Where did you hear about *select box*
     - Must be required
     - Options:
@@ -22,9 +22,15 @@ challengers: ['']
       - Discord
       - Other
 
+**Bonus**
+- Add configuration for additional form fields
+- Add configuration for data validation
+- Add configuration for validation messages
+- Add configuration for form action and method
+
 ## Level 2 Convert this into a HTML form
 
-- Use JavaScript to convert the JSON config into a usable form
+- Use JavaScript or PHP to convert the JSON config into a usable form
 
 ## Level 3 Handle form submission via PHP
 
@@ -35,3 +41,5 @@ challengers: ['']
 - Create an XML file per submission which stores the values
 - The XML file should have the timestamp as the filename
 
+**Bonus**
+- Design code/config so that the form fields can be configured differently without altering the PHP code.
