@@ -2,7 +2,7 @@
 path: "/2019/december"
 date: "2019-12-01"
 title: "December 2019 Code Challenges"
-youtube_id: ""
+youtube_id: "si6iKKGTztg"
 technologies: ['js','css','html']
 challengers: ['https://github.com/anjitzero/new-year-2020', 'https://github.com/mwayne16/New-Years-Fireworks']
 ---
