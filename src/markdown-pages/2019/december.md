@@ -4,7 +4,7 @@ date: "2019-12-01"
 title: "December 2019 Code Challenges"
 youtube_id: ""
 technologies: ['js','css','html']
-challengers: []
+challengers: ['https://github.com/anjitzero/new-year-2020', 'https://github.com/mwayne16/New-Years-Fireworks']
 ---
 ## Level 1 - Happy New Year Card
 
