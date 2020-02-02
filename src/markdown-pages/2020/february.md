@@ -24,7 +24,9 @@ $ ./hashthis.php helloword
 ## Level 2 Add the hashed string to a text file
 -  Create a new line in a text file for every hashed string
 
-## Level 3 Create a form that verifies the encryption of a submitted string
-- Loop over existing hashes in the text file and verify that the submitted string exist in the list of hashes
-- Print the result
-- If strings have been decoded then print out the decoded string and its hash
+## Level 3 Validate the clear text string
+- Create a HTML form that posts a string for validation
+- Validate the submitted string against the hashes in the text file
+-- Loop over existing hashes in the text file and verify that the submitted string exist
+- Print the result to the page
+- If submitted string is valid then print out the decoded string and its hash
