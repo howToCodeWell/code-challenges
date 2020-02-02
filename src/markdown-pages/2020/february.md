@@ -3,7 +3,7 @@ path: "/2020/february"
 date: "2020-02-02"
 title: "February 2020 Code Challenges"
 youtube_id: ""
-technologies: ['js', 'html, 'php']
+technologies: ['js', 'html', 'php']
 challengers: ['']
 ---
 ## Level 1 - Encode a string
@@ -14,7 +14,7 @@ challengers: ['']
 
 Web request
 
-`/hasthis?string=helloworld`
+`/hashthis?string=helloworld`
 
 Or command 
 ```bash

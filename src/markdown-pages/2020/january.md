@@ -4,7 +4,7 @@ date: "2020-01-05"
 title: "January 2020 Code Challenges"
 youtube_id: ""
 technologies: ['js','css','html', 'php']
-challengers: ['']
+challengers: ['https://github.com/Tyrianad/JanuaryChallenge2020']
 ---
 ## Level 1 - Create JSON form config
 
