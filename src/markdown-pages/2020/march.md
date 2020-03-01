@@ -3,18 +3,18 @@ path: "/2020/march"
 date: "2020-03-01"
 title: "March 2020 Code Challenges"
 youtube_id: ""
-technologies: ['js', 'html', 'php', 'css]
-challengers: ['']
+technologies: ['js', 'html', 'php', 'css']
+challengers: []
 ---
 We are going to be build a game! It's going to take a couple of months and this is the first part
 
-## Part 1 - Building the game
+# Building a fighting game (Part 1)
 In this challenge you will be setting up the game environment
 You can mix PHP, JavaScript, HTML and CSS.
-Please do not use any frameworks or libraries!
+Frameworks are allowed however bonus points if you don't use frameworks
  
 ## Level 1 - Build a table
-- Build a semantically correct table with the following headers:
+- Build a semantically correct HTML table with the following headers:
     - Name
     - Type
     - Strength
@@ -31,19 +31,19 @@ Please do not use any frameworks or libraries!
     - River trolls
 - The following health and strength rules must apply:
 
-### Witches
+**Witches**
 - Strength between 60 - 80
 - Health between 50 - 60
 
-### Dragons
+**Dragons**
 - Strength between 80 - 90
 - Health between 80 - 90
 
-### Snakes
+**Snakes**
 - Strength between 30 - 60
 - Health between 30 - 90
 
-### River Trolls
+**River Trolls**
 - Strength between 22 - 65
 - Health between 60 - 92
 
@@ -54,13 +54,16 @@ Please do not use any frameworks or libraries!
     - Delete
     - Increase health
     - Decrease health
-- Each button should display an alert that displays the type of action to the screen
+- Each button should display an alert that shows the type of action pressed
 - Use an emoji for each of the buttons instead of text. 
 
-### Level 4
-- Create a button above the table with the value of 'Fight'
-- This should display an alert with the message 'About to fight'
+## Level 4
+- Create a button above the table with the value of 'Roll The Dice' 
+    - This should display an alert with the message 'About to fight'
 - Create a button above the table with the value of 'Reset'
     - This should refresh the table.
+    
+##  Level master
+- Don't use any frameworks!
     
 We will be using this setup for Aprils challenge.  So make it look good! :)
