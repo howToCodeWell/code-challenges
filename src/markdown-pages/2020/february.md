@@ -3,7 +3,7 @@ path: "/2020/february"
 date: "2020-02-02"
 title: "February 2020 Code Challenges"
 youtube_id: ""
-technologies: ['js', 'html', 'php']
+technologies: ['javascript', 'html5', 'php']
 challengers: ['https://github.com/abbadon1334/htcw-coding-challenge','https://github.com/Tyrianad/JanuaryChallenge2020']
 ---
 ## Level 1 - Encode a string

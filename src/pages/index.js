@@ -14,15 +14,15 @@ const IndexPage = ({
         .map(edge => <PostLink key={edge.node.id} post={edge.node}/>);
     return (
         <Layout>
-            <div className="flex-non sm:flex ">
-                <div className="flex-none sm:flex-1 md:flex-auto mr-5">
+            <div className="flex-none md:flex">
+                <div className="md:w-4/6  md:mr-4">
                     <CurrentChallenge/>
                     <div className="text-center md:text-left m-1 pt-5 pb-5">
                         <a className="inline-block border rounded py-1 px-3 hover:no-underline"
                            href={"https://howtocodewell.net/discord"}>Submit your challenge</a>
                     </div>
                 </div>
-                <div className="flex-none sm:flex-1 md:flex-auto mt-2 mb-2">
+                <div className="md:w-2/6">
                     <h1>Previous challenges</h1>
                     <nav>{Posts}</nav>
                 </div>
@@ -45,7 +45,8 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM YYYY")
             path
-            title
+            title,
+            technologies
           }
         }
       }

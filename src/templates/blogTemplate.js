@@ -10,13 +10,11 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
       <Layout>
-      <div class="flex-non sm:flex ">
+      <div className="">
         <div className="flex-none sm:flex-1 md:flex-auto mr-5">
           <h1>{frontmatter.title}</h1>
           <div className="flex devicons mb-4">
-              <i className="devicon-javascript-plain colored"></i>
-              <i className="devicon-css3-plain-wordmark colored"></i>
-              <i className="devicon-html5-plain-wordmark colored"></i>
+            { frontmatter.technologies.map(tech =><i  key={tech} className={`devicon-${tech}-plain colored`} />) }
           </div>
           <div
           className="blog-post-content"
