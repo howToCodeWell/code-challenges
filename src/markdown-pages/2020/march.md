@@ -3,7 +3,7 @@ path: "/2020/march"
 date: "2020-03-01"
 title: "March 2020 Code Challenges"
 youtube_id: ""
-technologies: ['js', 'html', 'php', 'css']
+technologies: ['javascript', 'html5', 'php', 'css3']
 challengers: []
 ---
 We are going to be build a game! It's going to take a couple of months and this is the first part

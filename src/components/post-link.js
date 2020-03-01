@@ -1,16 +1,21 @@
-import React from "react"
-import { Link } from "gatsby"
-const PostLink = ({ post }) => (
-  <div className="flex">
-    <Link to={post.frontmatter.path}>
-      {post.frontmatter.date}
+import React from 'react'
+import { Link } from 'gatsby'
 
-    </Link>
-      <div className="flex devicons ml-2">
-          <i className="devicon-javascript-plain colored"></i>
-          <i className="devicon-css3-plain-wordmark colored"></i>
-          <i className="devicon-html5-plain-wordmark colored"></i>
+const PostLink = ({ post }) => {
+  console.debug(post)
+
+  return (<>
+    <div className="flex mb-2">
+      <Link to={post.frontmatter.path} className={`block md:w-2/6`}>
+        {post.frontmatter.date}
+
+      </Link>
+      <div className={`md:w-4/6`}>
+        <div className="flex devicons">
+          {post.frontmatter.technologies.map(tech => <i key={tech} className={`devicon-${tech}-plain colored pl-2`}/>)}
+        </div>
       </div>
-  </div>
-)
+    </div>
+  </>)
+}
 export default PostLink
