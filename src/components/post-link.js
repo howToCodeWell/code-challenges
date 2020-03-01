@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const PostLink = ({ post }) => {
-  console.debug(post)
 
   return (<>
     <div className="flex mb-2">
