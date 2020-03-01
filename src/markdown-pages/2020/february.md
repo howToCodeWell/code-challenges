@@ -4,7 +4,7 @@ date: "2020-02-02"
 title: "February 2020 Code Challenges"
 youtube_id: ""
 technologies: ['js', 'html', 'php']
-challengers: ['']
+challengers: ['https://github.com/abbadon1334/htcw-coding-challenge','https://github.com/Tyrianad/JanuaryChallenge2020']
 ---
 ## Level 1 - Encode a string
 - Use JavaScript or PHP to encode a string
@@ -18,7 +18,7 @@ Web request
 
 Or command 
 ```bash
-$ ./hashthis.php helloword
+$ ./hashthis.php helloworld
 ```
 
 ## Level 2 Add the hashed string to a text file
@@ -27,6 +27,6 @@ $ ./hashthis.php helloword
 ## Level 3 Validate the clear text string
 - Create a HTML form that posts a string for validation
 - Validate the submitted string against the hashes in the text file
--- Loop over existing hashes in the text file and verify that the submitted string exist
+- Loop over existing hashes in the text file and verify that the submitted string exist
 - Print the result to the page
 - If submitted string is valid then print out the decoded string and its hash
