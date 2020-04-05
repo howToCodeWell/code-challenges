@@ -2,7 +2,7 @@
 path: "/2020/january"
 date: "2020-01-05"
 title: "January 2020 Code Challenges"
-youtube_id: ""
+youtube_id: "yc0DFP5e22c"
 technologies: ['javascript','css3','html5', 'php']
 challengers: ['https://github.com/Tyrianad/JanuaryChallenge2020']
 ---
