@@ -15,7 +15,7 @@ const IndexPage = ({
     return (
         <Layout>
             <div className="flex-none md:flex">
-                <div className="md:w-4/6  md:mr-4">
+                <div className="md:w-4/6 md:mr-4">
                     <CurrentChallenge/>
                     <div className="text-center md:text-left m-1 pt-5 pb-5">
                         <a className="inline-block border rounded py-1 px-3 hover:no-underline"
