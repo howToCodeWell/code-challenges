@@ -25,8 +25,8 @@ Frameworks are allowed however bonus points if you don't use frameworks
 ## Level 4 - Roll those dice
 - When clicking the 'Roll Dice Button' generate two random numbers between 1 and 6
 - Display both of the numbers in alert/modal
-- When two doubles are rolled display 'Special Powers Activated' in the alert/modal
-- Store the dice rolls and record if the special powers where activated in variables that can be accessed in the next challenge
+- When a double is rolled display 'Special Powers Activated' in the alert/modal
+- Store the dice rolls and record if the special powers are activated in a object that can be accessed in the next challenge
 
 ## Level 5 - Display Special Powers
 - Create 6 special powers
