@@ -4,7 +4,7 @@ date: "2020-04-05"
 title: "April 2020 Code Challenges"
 youtube_id: ""
 technologies: ['javascript', 'html5', 'php', 'css3']
-challengers: []
+challengers: ['https://github.com/mrdb303/coding-tests-apr2020', 'https://github.com/michaelgallipo/monster-battle.git', 'https://github.com/ilmala/fighting-game']
 ---
 We are going to be improving the game that we created in the [last challenge](/2020/march)
 
