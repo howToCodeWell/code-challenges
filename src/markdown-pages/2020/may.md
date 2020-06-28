@@ -4,7 +4,7 @@ date: "2020-05-03"
 title: "May 2020 Code Challenges"
 youtube_id: ""
 technologies: ['javascript', 'html5', 'php', 'css3']
-challengers: []
+challengers: ['https://github.com/mrdb303/coding-tests', 'https://github.com/michaelgallipo/monster-battle.git', 'https://github.com/Tyrianad/MarchChallenge2020']
 ---
 We are going to be build a game! It's going to take a couple of months and this is the 3rd and final part
 
