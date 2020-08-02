@@ -1,6 +1,6 @@
 ---
 path: "/2020/july"
-date: "2020-06-28"
+date: "2020-07-28"
 title: "July 2020 Code Challenges"
 youtube_id: ""
 technologies: ['javascript', 'python', 'php']
