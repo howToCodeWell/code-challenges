@@ -1,5 +1,5 @@
 import React from "react"
-import {graphql} from "gatsby"
+import { graphql, Link } from "gatsby"
 import PostLink from "../components/post-link"
 import CurrentChallenge from "../components/current-challenge"
 import Layout from "../components/layout";
@@ -19,8 +19,8 @@ const IndexPage = ({
                   <div className={`pr-4`}>
                     <CurrentChallenge/>
                     <div className="text-center md:text-left m-1 pt-5 pb-5">
-                        <a className="inline-block border rounded py-1 px-3 hover:no-underline"
-                           href={"https://howtocodewell.net/discord"}>Submit your challenge</a>
+                        <Link className="inline-block border rounded py-1 px-3 hover:no-underline"
+                           to={`how-to-submit-your-code`}>How to submit your coding challenge</Link>
                     </div>
                   </div>
                 </div>
