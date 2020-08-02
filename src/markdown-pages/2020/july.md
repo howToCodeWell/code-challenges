@@ -4,7 +4,7 @@ date: "2020-07-28"
 title: "July 2020 Code Challenges"
 youtube_id: ""
 technologies: ['javascript', 'python', 'php']
-challengers: []
+challengers: ['https://github.com/mrdb303/coding-challenge-regex', 'https://github.com/TheTilodon/htcw-2020-July-challange']
 ---
 
 # Regex Tests
