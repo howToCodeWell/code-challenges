@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import Video from '../components/video'
 import ChallengeLink from '../components/challenger-link'
@@ -37,7 +37,6 @@ export default function Template ({
           <div className={`mb-4`}>
             <h1>Challengers</h1>
             {frontmatter.challengers.map(challenger => <ChallengeLink key={challenger} challenger={challenger}/>)}
-
           </div>
           <div className={`mb-4`}>
             <h1>Previous challenges</h1>
