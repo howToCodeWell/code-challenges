@@ -35,13 +35,20 @@ export default function Template ({
 
         <div class="md:w-2/6">
           <div className={`mb-4`}>
-            <h1>Challengers</h1>
+            <h1>Submissions</h1>
             {frontmatter.challengers.map(challenger => <ChallengeLink key={challenger} challenger={challenger}/>)}
+          </div>
+          <div className={`mb-4`}>
+            <h1>Latest challenge</h1>
+            <Link to={`/`}>View current challenge</Link>
           </div>
           <div className={`mb-4`}>
             <h1>Previous challenges</h1>
             <nav>{Posts}</nav>
           </div>
+
+
+
         </div>
       </div>
     </Layout>
