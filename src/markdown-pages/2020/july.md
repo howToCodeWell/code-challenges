@@ -2,7 +2,7 @@
 path: "/2020/july"
 date: "2020-06-28"
 title: "July 2020 Code Challenges"
-youtube_id: "1I63xCFNjYY"
+youtube_id: "RWRChcBA0gw"
 technologies: ['javascript', 'python', 'php']
 challengers: []
 ---

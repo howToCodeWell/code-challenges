@@ -2,7 +2,7 @@
 path: "/2020/august"
 date: "2020-08-02"
 title: "August 2020 Code Challenges"
-youtube_id: ""
+youtube_id: "QB2DNUHV4W4"
 technologies: ['python']
 challengers: []
 ---
