@@ -11,7 +11,7 @@ We are going to create a Christmas advent calendar for coders. This will be buil
 When clicking on a day a modal should appear. This modal will display something in web development that you have learnt in 2020. 
 This could be a snippet from a blog post, an embedded video, podcast or other things that have helped you in your 2020.
 You can use frameworks like Vue or React but bonus points given to those who use vanilla JavaScript and CSS.
-The code will be reviewed live on [Twitch](https://howtocodewell.net/live) on the 13th of December.
+The code will be reviewed live on [Twitch](https://howtocodewell.net/live) on the 20th of December.
 
 ## Level 1 Interface
 Create a grid of 24 days. Each day must display the day number.
