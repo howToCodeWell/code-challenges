@@ -12,7 +12,7 @@ You can use Windows (WSL) Mac or Linux.
 
 Each example must be performed on a single line of code and ran in the terminal.
 
-Your code will be reviewed on Twitch Feb 7th (Sunday)
+Your code will be reviewed on Twitch Feb 14th (Sunday)
 
 ## Level 1 - RSS Feed
 Return the HTCW podcast feed as XML
