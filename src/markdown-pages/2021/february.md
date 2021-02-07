@@ -1,6 +1,6 @@
 ---
 path: "/2021/february"
-date: "2020-02-07"
+date: "2021-02-07"
 title: "PHP OOP Quiz"
 youtube_id: ""
 technologies: ['php']
