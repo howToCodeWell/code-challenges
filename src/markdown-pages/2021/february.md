@@ -9,7 +9,7 @@ challengers: []
 
 Test your PHP OOP knowledge with these interview style questions.  
 Some questions require a yes or no answer and others require a code example.  
-Please use Markdown to write you answers and submit your GitHub Repository to the Discord server
+Please use Markdown to write your answers and [read the code submission details]('/how-to-submit-your-code').
 
 ## Question 1
 Is multiple inheritance supported in PHP [yes/no]?
